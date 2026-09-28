@@ -47,3 +47,5 @@ Backend tests use a stub pipeline and do not require the binary model artifact. 
 ## Privacy and limitations
 
 Inputs are sent to the local API only for the active prediction request. The frontend does not write submitted values to local storage or URLs. This output is a decision-support signal, not a medical diagnosis and never a sufficient basis for an employment decision. Production use would require authentication, transport/storage controls, access policy, model validation, and employment/privacy review.
+
+## Need to improve models accuracy
